@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio Tesya Indriani — Make Up Artist</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    :root{
+      --pink-1:#ffbfd2;
+      --pink-2:#ff7aa2;
+      --accent:#ff4d7a;
+      --muted:#6b6b6b;
+    }
+    body{
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color:#222;
+      background: linear-gradient(180deg, #fff 0%, #fffafc 100%);
+    }
+    .hero{
+      background: linear-gradient(90deg,var(--pink-1), rgba(255,255,255,0.4));
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 8px 30px rgba(255,122,162,0.08);
+    }
+    .btn-pink{
+      background: var(--accent);
+      color: #fff;
+      border-radius: 10px;
+      padding: .55rem 1rem;
+      box-shadow: 0 6px 18px rgba(255,77,122,0.15);
+      border: none;
+    }
+    .service-card{
+      border-radius: 14px;
+      border: 1px solid rgba(0,0,0,0.04);
+      padding: 18px;
+      transition: transform .18s ease, box-shadow .18s ease;
+    }
+    .service-card:hover{ transform: translateY(-6px); box-shadow: 0 10px 30px rgba(0,0,0,0.06); }
+    .gallery img{ width:100%; height:220px; object-fit:cover; border-radius:12px; }
+    footer{ background:#fff; border-top:1px solid rgba(0,0,0,0.03); padding:24px 0; margin-top:40px;}
+    @media(min-width:992px){
+      .hero{ padding:56px; }
+      .gallery img{ height:260px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent px-3 px-md-5">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+      <span style="color:var(--accent)">Tesya</span> Indriani
+      <small class="d-block" style="font-size:.7rem;color:var(--muted)">Make Up Artist</small>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="modul.html">pengembangan e learning</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="container mt-4 mb-4">
+  <div class="hero d-flex flex-column flex-lg-row gap-4 align-items-center">
+    <div class="flex-fill">
+      <h1 class="display-6 fw-bold mb-2">Tesya Indriani — Make Up Artist</h1>
+      <p class="mb-3" style="color:var(--muted)">
+        Profesional MUA untuk wedding, photoshoot, wisuda, dan acara spesial. Membuat klien percaya diri dengan riasan yang natural hingga glamor.
+      </p>
+      <div class="mb-3">
+        <a href="#contact" class="btn btn-pink me-2">Booking Sekarang</a>
+        <a href="#gallery" class="btn btn-outline-secondary">Lihat Hasil Karya</a>
+      </div>
+
+      <div class="row row-cols-1 row-cols-sm-3 g-2 mt-3">
+        <div class="col"><small class="text-muted">Pengalaman</small><div class="fw-bold">4+ tahun</div></div>
+        <div class="col"><small class="text-muted">Jenis Layanan</small><div class="fw-bold">Wedding, Photoshoot</div></div>
+        <div class="col"><small class="text-muted">Area</small><div class="fw-bold">Majene / Sekitar</div></div>
+      </div>
+    </div>
+
+    <div style="width:260px;">
+      <!-- Ganti src dengan foto kamu -->
+      <img src="gambar/profil.jpeg" alt="Tesy Indriani" class="img-fluid rounded-4 shadow-sm">
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- About -->
+  <section id="about" class="my-5">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h3 class="fw-semibold">Tentang Saya</h3>
+        <p style="color:var(--muted)">
+        Saya Tesya Indriani, seorang Make Up Artist (MUA) sekaligus lulusan SMK Negeri 1 Majene, jurusan Tata Kecantikan, tahun 2024.
+Sejak masa sekolah di SMK, saya memiliki minat besar di dunia kecantikan dan seni merias wajah. Saya mempelajari berbagai teknik make up — mulai dari rias sehari-hari, make up pesta, hingga make up pengantin dan karakter. Dari pengalaman itu, saya semakin yakin untuk menekuni dunia kecantikan sebagai karier profesional.
+Saat ini, saya melanjutkan pendidikan di Universitas Sulawesi Barat, program studi Pendidikan Teknologi Informasi. Walau fokus kuliah saya di bidang teknologi, saya tetap aktif mengembangkan keterampilan make up dan menerima berbagai proyek rias, seperti wedding, wisuda, photoshoot, hingga acara formal.
+Bagi saya, make up bukan sekadar mempercantik tampilan, tetapi juga cara untuk membantu seseorang tampil lebih percaya diri dan bahagia dengan dirinya sendiri.💄
+        </p>
+        <ul class="list-unstyled">
+          <li><strong>Keahlian:</strong> Bridal, Glam, Soft Korean, Editorial, Character Makeup</li>
+          <li><strong>Tools:</strong> Makeup profesional (MAC, Make Over, Anastasia, dll)</li>
+          <li><strong>Pelayanan:</strong> On-location & Studio</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="row g-3">
+          <div class="col-6">
+            <div class="service-card">
+              <h6 class="mb-1">Wedding Makeup</h6>
+              <p class="small text-muted mb-0">Natural hingga glam bridal look.</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="service-card">
+              <h6 class="mb-1">Photoshoot</h6>
+              <p class="small text-muted mb-0">Editorial dan commercial makeup.</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="service-card">
+              <h6 class="mb-1">Wisuda & Event</h6>
+              <p class="small text-muted mb-0">Tampil fotogenik dan tahan lama.</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="service-card">
+              <h6 class="mb-1">Character / Fantasy</h6>
+              <p class="small text-muted mb-0">Makeup theatrical & kostum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="my-5">
+    <h4 class="fw-semibold mb-3">Layanan</h4>
+    <div class="row g-3">
+      <div class="col-md-4">
+        <div class="p-3 rounded-3 h-100" style="background:linear-gradient(180deg,#fff,#fffaf9); border:1px solid rgba(255,122,162,0.06);">
+          <h5>Bridal Makeup</h5>
+          <p class="small text-muted">Konsultasi look, riasan tahan lama, retouch selama acara jika diperlukan.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-3 rounded-3 h-100" style="background:linear-gradient(180deg,#fff,#fffaf9); border:1px solid rgba(255,122,162,0.06);">
+          <h5>Makeup Photoshoot</h5>
+          <p class="small text-muted">Makeup untuk katalog, editorial, portfolio model & influencer.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-3 rounded-3 h-100" style="background:linear-gradient(180deg,#fff,#fffaf9); border:1px solid rgba(255,122,162,0.06);">
+          <h5>Event & Wisuda</h5>
+          <p class="small text-muted">Fast glam look untuk acara formal dan pesta.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="my-5">
+    <h4 class="fw-semibold mb-3">Gallery</h4>
+    <div class="row g-3 gallery">
+      <!-- Ganti tiap src dengan foto nyata portofolio kamu -->
+      <div class="col-sm-6 col-md-4"><img src="gambar/gambar 2.jpeg" alt="gallery1"></div>
+      <div class="col-sm-6 col-md-4"><img src="gambar/totamma.jpeg" alt="gallery2"></div>
+      <div class="col-sm-6 col-md-4"><img src="gambar/gambar pengantin.jpeg" alt="gallery3"></div>
+      <div class="col-sm-6 col-md-4"><img src="gambar/pegelaran.jpeg" alt="gallery4"></div>
+      <div class="col-sm-6 col-md-4"><img src="gambar/sertifikat ghadis suci.jpeg" alt="gallery5"></div>
+      <div class="col-sm-6 col-md-4"><img src="gambar/gambar makeup 1.jpeg" alt="gallery6"></div>
+    </div>
+    <p class=".</p>
+  </section>
+
+  <!-- Testimonials (optional) -->
+  <section id="testimonials" class="my-5">
+    <h4 class="fw-semibold mb-3">Testimoni</h4>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <div class="p-3 rounded-3" style="border:1px solid rgba(0,0,0,0.04);">
+          <p class="mb-1">"Riasannya natural dan tahan lama, banyak yang memuji di hari H!"</p>
+          <small class="text-muted">— Ayu, Pengantin 2024</small>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="p-3 rounded-3" style="border:1px solid rgba(0,0,0,0.04);">
+          <p class="mb-1">"Makeup photoshootnya detail dan sangat menyatu dengan konsep." </p>
+          <small class="text-muted">— Fajar, Fotografer</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="my-5">
+    <h4 class="fw-semibold mb-3">Kontak & Booking</h4>
+    <div class="row">
+      <div class="col-md-6">
+        <p class="small text-muted">Untuk reservasi atau konsultasi look, hubungi:</p>
+        <ul class="list-unstyled">
+          <li><strong>WhatsApp:</strong> +62 [85333860295]</li>
+          <li><strong>Email:</strong> tesyahilal@gmail.com</li>
+          <li><strong>Instagram:</strong> @tesyamakeup_new</li>
+          <li><strong>Domisili:</strong> Majene, Sulawesi Barat</li>
+        </ul>
+        <p class="small text-muted">Durasi & harga disesuaikan dengan jenis layanan. DM atau WA untuk pricelist dan jadwal.</p>
+      </div>
+      <div class="col-md-6">
+        <form>
+          <div class="mb-2">
+            <input class="form-control" placeholder="Nama" required>
+          </div>
+          <div class="mb-2">
+            <input class="form-control" placeholder="No. WhatsApp" required>
+          </div>
+          <div class="mb-2">
+            <input class="form-control" placeholder="Tipe Layanan (mis. Bridal, Photoshoot)" required>
+          </div>
+          <div class="mb-2">
+            <textarea class="form-control" rows="3" placeholder="Pesan singkat / tanggal" required></textarea>
+          </div>
+          <button class="btn btn-pink">Kirim Pesan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <div>
+      <strong>Tesya Indriani</strong> • Make Up Artist
+      <div class="small text-muted">© <span id="year"></span> Semua hak cipta.</div>
+    </div>
+    <div class="small text-muted">Made with ❤️ • IG: @tesyamakeup_new</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').innerText = new Date().getFullYear();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
